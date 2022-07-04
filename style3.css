@@ -1,0 +1,319 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 's-core_2';
+    src: url(./S-Core_Dream_OTF/SCDream2.otf);
+}
+
+@font-face {
+    font-family: 's-core_3';
+    src: url(./S-Core_Dream_OTF/SCDream3.otf);
+}
+
+img {
+    width: 100%;
+}
+
+.wrap {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 120vh;
+}
+
+.sec1 img {
+    width: 100%;
+}
+
+.sec1 .main_img {
+    position: relative;
+    top: 56px;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    margin-bottom: 56px;
+}
+.sec1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sec1 ul li {
+    margin-right: 10px;
+}
+
+.sec1 ul li:nth-of-type(3) {
+    margin-right: 0;
+}
+
+.sec2 {
+    padding: 20px;
+}
+
+.sec2 h2 {
+    font-size: 24px;
+    font-family: s-core_2;
+}
+
+.sec2 h2 span {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.sec2 p {
+    font-size: 18px;
+    font-family: s-core_3;
+}
+
+.sec2 p:nth-of-type(2) {
+    margin-top: 36px;
+    line-height: 1.5rem;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 80%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #171717;
+}
+
+button a {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #eaeaea;
+    font-family: s-core_3;
+}
+
+button:nth-of-type(2) {
+    background-color: #eaeaea;
+}
+
+button:nth-of-type(2) a {
+    color: #171717;
+}
+
+@media (min-width:1142px) {
+    header {
+        max-width: 1920px;
+        width: 100vw;
+        left: 0;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #171717;
+        color: white;
+        height: 69px;
+        font-size: 2rem;
+    }
+
+    header .logo {
+        width: 128px;
+        position: fixed;
+        left: 5%;
+    }
+
+    header .logo img {
+        width: 100%;
+    }
+
+    .wrap header i:nth-of-type(1) {
+        display: none;
+    }
+
+    .wrap header i:nth-of-type(2) {
+        position: fixed;
+        font-size: 18px;
+        right: 5%;
+        z-index: 100000;
+    }
+
+    .gnb {
+        position: fixed;
+        z-index: 10000;
+        left: 15%;
+    }
+
+    .gnb ul {
+        z-index: 100;
+        width: 50%;
+        height: 65px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 0;
+    }
+
+    .gnb .bot_icon {
+        display: none;
+    }
+
+    .gnb ul li a {
+        display: block;
+        padding: 20px 30px;
+        cursor: pointer;
+        color: #eaeaea;
+        white-space: nowrap;
+        font-family: s-core_3;
+        font-size: 14px;
+        transition: .3s;
+    }
+
+    .gnb ul li a:hover {
+        color: #a0a0a0;
+    }
+
+    .in_wrap {
+        padding-top: 10%;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .sec1 {
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .sec1 img {
+        max-width: 300px;
+        width: 300px;
+    }
+
+    .sec1 .sub_img {
+        width: 300%;
+    }
+
+    .sec1 .main_img {
+        position: absolute;
+        top: 0;
+        left: 11%;
+    }
+
+    .sec1 .sub_img li {
+        position: absolute;
+        left: 50%;
+        top: 14%;
+    }
+
+    .sec1 .sub_img li:nth-of-type(2) {
+        left: 11%;
+        top: 90%;
+    }
+    .sec1 .sub_img li:nth-of-type(1) {
+        display: none;
+    }
+
+    .sec2 {
+        padding-top: 7%;
+        position: relative;
+    }
+
+    .btn {
+        position: absolute;
+        bottom: -40%;
+        width: 70%;
+        left: 0;
+    }
+
+
+}
+
+@media (max-width:1141px) {
+    header {
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        height: 56px;
+        font-size: 2rem;
+        background-color: #171717;
+        /* background-image: url(./제네시스부티크\ img\ \(2\)/life-style.jpg); */
+    }
+    
+    header .logo {
+        width: 100px;
+    }
+    
+    header i {
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    
+    .gnb {
+        position: fixed;
+        top: 50px;
+        left: -500%;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+        z-index: 100000;
+        transition: .5s;
+        padding: 50px 36px 36px;
+    }
+    
+    .gnb.on {
+        left: 0;
+    }
+    
+    .gnb a {
+        display: block;
+        padding: 1rem 0;
+        position: relative;
+        font-family: s-core_3;
+        color: #171717;
+    }
+    
+    .gnb>ul a {
+        font-size: 24px;
+        padding: 1.5rem 0;
+    }
+    
+    .gnb .bot_icon ul li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .gnb .bot_icon ul li:nth-of-type(1) {
+        margin-top: 150px;
+    }
+    
+    .gnb .bot_icon ul li i {
+        color: #585858;
+    }
+    
+    .gnb .bot_icon ul li a {
+        position: absolute;
+        display: block;
+        width: 100vw;
+        padding: 20px;
+        color: #585858;
+    }
+    .sec1 ul li {
+        max-width: 220px;
+    }
+    .btn {
+        margin-top: 5%;
+    }
+}
