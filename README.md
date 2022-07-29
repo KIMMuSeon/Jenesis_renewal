@@ -4,6 +4,6 @@
 
 <p align = 'center'> 👇 인덱스 화면 👇 </p>
 
-![다운로드](https://user-images.githubusercontent.com/96815572/181667709-7e7146b5-2da1-42fc-9852-51883d3c4057.jpeg)
+https://user-images.githubusercontent.com/96815572/181669541-f60547ce-e7fd-4f2f-84f6-9462acdfccc7.mp4
 
 
