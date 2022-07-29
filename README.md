@@ -8,7 +8,7 @@
 
 ---
 
-<p align = 'center'> 👇 인덱스 화면 👇 </p>
+<p align = 'center'> 📌 인덱스 화면 </p>
 
 https://user-images.githubusercontent.com/96815572/181669541-f60547ce-e7fd-4f2f-84f6-9462acdfccc7.mp4
 
